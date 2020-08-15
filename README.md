@@ -4,6 +4,12 @@ This image contains the [giltene/wrk2](https://github.com/giltene/wrk2) CLI tool
 
 ## Usage
 
+This image is built from master and accessible on dockerhub at `haydenjeune/wrk2`. To pull:
+
+```bash
+docker pull haydenjeune/wrk2:latest
+```
+
 The entrypoint for this image is the `wrk2` binary.
 
 To run tests with 1 thread, 5 connections, 10 requests per second, for 15s, with a request defined in request.lua (as below)
