@@ -1,6 +1,6 @@
 # wrk2-docker
 
-This image contains the [giltene/wrk2](https://github.com/giltene/wrk2) CLI tool for performance testing.
+This image contains the [giltene/wrk2](https://github.com/giltene/wrk2) CLI tool for performance testing. I have created this image as the other wrk2 images I found are far bigger than they need to be (most were ~200MB). This image contains only the things that you actually need to run wrk2, so is quite small at ~6MB.
 
 ## Usage
 
